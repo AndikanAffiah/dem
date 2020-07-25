@@ -3,7 +3,7 @@
     padding: 0;
 }
 .color-blue{
-    color: #0075FF;
+    color: #0075FF!important;
 }
 .bg-color-blue{
     background-color: #0075FF;
@@ -11,6 +11,9 @@
 }
 .bg-grey-light{
     background-color: #F9F9FA;
+}
+.bg-grey-dark{
+    background-color: #000000d3;
 }
 .border-blue{
     border: 1px solid #0075FF;
@@ -106,6 +109,11 @@ body{
     position: absolute;
     left: 20%;
     top: 30%;
+}
+
+.form-control{
+    outline-color: #ccc;
+    background-color: #00000041!important;
 }
 
 @media (max-width: 767px){
