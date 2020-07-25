@@ -34,7 +34,9 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+.navbar-light .navbar-toggler{
+    border: none;
+}
 .trusted{
     background-color: #F9F9FA;
 }
@@ -92,6 +94,7 @@ body{
     height: 220px;
 }
 .h-320{
+    min-height: 500px;
     height: 320px;
 }
 .carousel-item{
@@ -101,14 +104,16 @@ body{
     flex-basis: 20%;
 }
 .works-img{
+    width: 350px;
     position: absolute;
     left: 0;
-    top: 10%;
+    top: 20%;
 }
 .works-img2{
+    width: 350px;
     position: absolute;
     left: 20%;
-    top: 30%;
+    top: 40%;
 }
 
 .form-control{
@@ -137,6 +142,9 @@ body{
     }
     .carousel-inner .card.work:hover .arrow-down{
         left: 45%;
+    }
+    .works-img, .works-img2{
+        width: 300px;
     }
 }
 
